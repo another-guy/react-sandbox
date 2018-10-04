@@ -4,9 +4,10 @@ import { demo } from './App';
 import * as serviceWorker from './serviceWorker';
 
 // import { ForwardRefDemo } from './forwarding-refs/ForwardRefDemo';
-import { HigherOrderComponentDemo } from './higher-order-components/HigherOrderComponentDemo';
+// import { HigherOrderComponentDemo } from './higher-order-components/HigherOrderComponentDemo';
+import { FragmentsDemo } from './fragments/FragmentsDemo';
 
-const Demo = demo(HigherOrderComponentDemo);
+const Demo = demo(FragmentsDemo);
 
 ReactDOM.render(<Demo />, document.getElementById('root'));
 
