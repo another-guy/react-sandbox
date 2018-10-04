@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom';
 import { demo } from './App';
 import * as serviceWorker from './serviceWorker';
 
-import { ForwardRefDemo } from './forwarding-refs/ForwardRefDemo';
-const Demo = demo(ForwardRefDemo);
+// import { ForwardRefDemo } from './forwarding-refs/ForwardRefDemo';
+import { HigherOrderComponentDemo } from './higher-order-components/HigherOrderComponentDemo';
+
+const Demo = demo(HigherOrderComponentDemo);
 
 ReactDOM.render(<Demo />, document.getElementById('root'));
 
