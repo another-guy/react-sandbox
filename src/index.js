@@ -5,9 +5,10 @@ import * as serviceWorker from './serviceWorker';
 
 // import { ForwardRefDemo } from './forwarding-refs/ForwardRefDemo';
 // import { HigherOrderComponentDemo } from './higher-order-components/HigherOrderComponentDemo';
-import { FragmentsDemo } from './fragments/FragmentsDemo';
+// import { FragmentsDemo } from './fragments/FragmentsDemo';
+import { ErrorBoundaryDemo } from './error-boundary/ErrorBoundaryDemo';
 
-const Demo = demo(FragmentsDemo);
+const Demo = demo(ErrorBoundaryDemo);
 
 ReactDOM.render(<Demo />, document.getElementById('root'));
 
